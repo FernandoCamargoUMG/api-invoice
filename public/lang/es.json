@@ -1,0 +1,15 @@
+
+{
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "client": "Cliente",
+    "product": "Producto",
+    "invoice": "Factura",
+    "invoice_number": "Número de Factura",
+    "total": "Total",
+    "date": "Fecha",
+    "status": "Estado",
+    "paid": "Pagada",
+    "pending": "Pendiente",
+    "canceled": "Anulada"
+}

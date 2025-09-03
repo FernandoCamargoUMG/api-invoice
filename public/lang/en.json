@@ -1,0 +1,14 @@
+{
+    "login": "Login",
+    "logout": "Logout",
+    "client": "Client",
+    "product": "Product",
+    "invoice": "Invoice",
+    "invoice_number": "Invoice Number",
+    "total": "Total",
+    "date": "Date",
+    "status": "Status",
+    "paid": "Paid",
+    "pending": "Pending",
+    "canceled": "Canceled"
+}

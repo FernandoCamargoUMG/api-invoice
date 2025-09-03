@@ -1,0 +1,12 @@
+# /public/.htaccess
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /
+
+# Si el archivo o directorio existe, se sirve directamente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Si no existe, se redirige todo a index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
