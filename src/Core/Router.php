@@ -14,7 +14,7 @@ class Router {
         foreach ($this->routes as $route) {
             $pattern = preg_replace('#\{[a-zA-Z_]+\}#', '([0-9]+)', $route['path']);
             if ($route['method'] === $method && preg_match("#^$pattern$#", $uri, $matches)) {
-                array_shift($matches); // El primer elemento es la ruta completa
+                array_shift($matches);
                 return call_user_func_array($route['handler'], $matches);
             }
         }
