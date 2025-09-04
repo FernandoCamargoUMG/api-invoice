@@ -16,10 +16,10 @@ final class Database
     {
         if (self::$pdo === null) {
             $config = [
-                'host'   => getenv('DB_HOST') ?: 'host.docker.internal',
-                'dbname' => getenv('DB_NAME') ?: 'invoice_system',
-                'user'   => getenv('DB_USER') ?: 'root',
-                'pass'   => getenv('DB_PASS') ?: '',
+                'host'   => getenv('DB_HOST') ?: '82.197.82.175',
+                'dbname' => getenv('DB_NAME') ?: 'u834187355_invoice_system',
+                'user'   => getenv('DB_USER') ?: 'u834187355_admin',
+                'pass'   => getenv('DB_PASS') ?: '4l]JgZCMFzU',
             ];
 
             $dsn = "mysql:host={$config['host']};dbname={$config['dbname']};charset=utf8mb4";

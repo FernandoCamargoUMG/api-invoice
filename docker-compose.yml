@@ -9,8 +9,8 @@ services:
     volumes:
       - .:/var/www/html
     environment:
-      - DB_HOST=host.docker.internal
-      - DB_NAME=invoice_system
-      - DB_USER=root
-      - DB_PASS=
+      - DB_HOST=82.197.82.175
+      - DB_NAME=u834187355_invoice_system
+      - DB_USER=u834187355_admin
+      - DB_PASS=4l]JgZCMFzU
     restart: unless-stopped
