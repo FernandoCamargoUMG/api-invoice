@@ -17,3 +17,5 @@ require_once __DIR__ . '/../src/Routes/invoices.php';
 
 $router->dispatch($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
 
+var_dump(getenv('DB_HOST'));
+exit;
